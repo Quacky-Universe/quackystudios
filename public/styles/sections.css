@@ -1,0 +1,104 @@
+section.one {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+
+  margin: 4rem 0;
+}
+
+section.one .left {
+  margin: 5rem 0 10rem 0;
+}
+
+.left .heading {
+  display: flex;
+  flex-direction: row;
+
+  margin-bottom: 1rem;
+}
+
+.heading h1 {
+  color: var(--primary-color);
+}
+
+.heading h2 {
+  font-weight: 300;
+  margin-left: 1rem;
+}
+
+.left p {
+  font-size: 1.5rem;
+}
+
+section.one .right {
+  margin: 4rem 0;
+}
+
+.right img {
+  max-width: 32rem;
+  height: auto;
+}
+
+.section {
+  height: 100vh;
+  padding: 10rem;
+}
+
+section.two h1 {
+  color: var(--primary-color);
+  font-weight: 700;
+
+  margin-bottom: 4rem;
+}
+
+section.two p {
+  font-size: 2rem;
+  line-height: 2rem;
+  width: 50vw;
+}
+
+section.three h1 {
+  color: var(--primary-color);
+  font-weight: 700;
+
+  margin-bottom: 4rem;
+}
+
+section.three ul {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.members a {
+  margin: 0 2rem;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+
+.info {
+  margin-bottom: 1.5rem;
+}
+
+.info h3 {
+  color: var(--primary-color);
+}
+
+.info h5 {
+  font-weight: 400;
+}
+
+.members a img {
+  max-width: 16rem;
+  height: 16rem;
+  border-radius: 50%;
+}
+
+.headingUnderline {
+  box-shadow: inset 0 -0.25em var(--primary-light);
+}
